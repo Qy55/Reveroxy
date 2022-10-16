@@ -17,14 +17,14 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	err = Backend.AddApp(&ServerConfig.ServDB)
-	if err != nil {
-		panic(err)
-	}
-	err = Backend.AddApp(&ServerConfig.ServNote)
-	if err != nil {
-		panic(err)
-	}
+	// err = Backend.AddApp(&ServerConfig.ServDB)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// err = Backend.AddApp(&ServerConfig.ServNote)
+	// if err != nil {
+	// 	panic(err)
+	// }
 	err = Backend.AddApp(&ServerConfig.ServJupyter)
 	if err != nil {
 		panic(err)
